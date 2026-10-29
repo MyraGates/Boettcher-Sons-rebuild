@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Explore Boettcher & Sons fabrication and metal repair services. Family owned and operated since 1946.">
+    <title>Services | Boettcher & Sons</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <!-- Header -->
+    <header class="site-header">
+        <div class="header-inner">
+            <a class="brand" href="index.html" aria-label="Boettcher and Sons home">
+                <img class="brand-logo" src="assets/boettcher-logo.svg" alt="">
+                <span class="brand-name">
+                    Boettcher <span>&amp; Sons</span>
+                    <small>Welding done right.</small>
+                </span>
+            </a>
+
+            <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-navigation">
+                <span class="menu-icon" aria-hidden="true">☰</span>
+                <span class="sr-only">Toggle navigation</span>
+            </button>
+
+            <nav class="main-navigation" id="main-navigation" aria-label="Main navigation">
+                <a href="index.html">Home</a>
+                <a class="active" href="services.html" aria-current="page">Services</a>
+                <a href="buildings.html">BSC Buildings</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+    <main id="main-content">
+
+        <!-- Page heading -->
+        <section class="page-banner">
+            <div class="section-wrap">
+                <p class="eyebrow">What we do</p>
+                <h1>Our Services</h1>
+                <p>
+                    From custom metal fabrication to equipment repair,
+                    we're here to help with your project.
+                </p>
+            </div>
+        </section>
+
+        <!-- Services tabs -->
+        <section class="services-page section-wrap" aria-labelledby="services-heading">
+
+            <div class="section-heading">
+                <p class="eyebrow eyebrow-blue">How we can help</p>
+                <h2 id="services-heading">Explore Our Services</h2>
+                <p>Select a service below to learn more.</p>
+            </div>
+
+            <div class="service-tabs" role="tablist" aria-label="Service categories">
+
+                <button class="service-tab active" id="fabrication-tab" type="button" role="tab" aria-selected="true"
+                    aria-controls="fabrication-panel" tabindex="0">
+                    Fabrication
+                </button>
+
+                <button class="service-tab" id="repair-tab" type="button" role="tab" aria-selected="false"
+                    aria-controls="repair-panel" tabindex="-1">
+                    Repair
+                </button>
+            </div>
+
+            <!-- Fabrication content -->
+            <section class="service-panel" id="fabrication-panel" role="tabpanel" aria-labelledby="fabrication-tab">
+
+                <div class="service-detail">
+                    <div class="service-detail-copy">
+                        <p class="eyebrow eyebrow-blue">Custom metalwork</p>
+                        <h2>Fabrication</h2>
+
+                        <p>
+                            Our fabrication shop can build what you need,
+                            from handrails and walkways to flagpoles and
+                            sunshades. Tell us what you want, and we will
+                            help make it a reality.
+                        </p>
+
+                        <p>
+                            You can bring us your design, or our friendly
+                            staff can help you decide what you want and
+                            how we can make it for a reasonable price.
+                        </p>
+
+                        <p>
+                            We can build from your choice of materials,
+                            including steel, aluminum, stainless steel,
+                            and galvanized alloys. We also offer delivery
+                            and installation.
+                        </p>
+
+                        <a class="button button-primary" href="contact.html">
+                            Ask About Fabrication
+                        </a>
+                    </div>
+
+                    <div class="service-detail-image">
+                        <img src="assets/fabrication.jpg" alt="Metal fabrication project" loading="lazy">
+                    </div>
+                </div>
+            </section>
+
+            <!-- Repair content -->
+            <section class="service-panel" id="repair-panel" role="tabpanel" aria-labelledby="repair-tab" hidden>
+
+                <div class="service-detail">
+                    <div class="service-detail-copy">
+                        <p class="eyebrow eyebrow-blue">Repair and maintenance</p>
+                        <h2>Repair</h2>
+
+                        <p>
+                            If it's broken, we can fix it. Our goal is to
+                            fix it right and solve the problem rather than
+                            create more problems.
+                        </p>
+
+                        <p>
+                            We repair many things, including pipes,
+                            trailers, buckets, and equipment.
+                        </p>
+
+                        <p>
+                            If you can't bring it to us, our welding trucks
+                            can come to you and make repairs on site.
+                            Walk-ins are welcome, and we can often repair
+                            your item on the spot or have it back to you
+                            the same day.
+                        </p>
+
+                        <a class="button button-primary" href="contact.html">
+                            Ask About Repairs
+                        </a>
+                    </div>
+
+                    <div class="service-detail-image">
+                        <img src="assets/trailerrepair.jpg" alt="Metal equipment being repaired" loading="lazy">
+                    </div>
+                </div>
+            </section>
+
+        </section>
+
+        <!-- Contact call to action -->
+        <section class="contact-strip">
+            <div class="section-wrap contact-strip-inner">
+                <div>
+                    <p class="eyebrow">Have a project in mind?</p>
+                    <h2>Let's talk about what you need.</h2>
+                    <p>Contact us to discuss your fabrication or repair project.</p>
+                </div>
+
+                <a class="button button-light" href="contact.html">
+                    Contact Us
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="section-wrap footer-inner">
+            <div class="footer-about">
+                <a class="footer-brand" href="index.html" aria-label="Boettcher and Sons home">
+                    <span class="footer-brand-name">
+                        Boettcher &amp; Sons
+                    </span>
+                </a>
+
+                <p>Family owned and operated since 1946.</p>
+                <p>Welding done right.</p>
+            </div>
+
+            <div class="footer-links">
+                <h2>Explore</h2>
+                <a href="index.html">Home</a>
+                <a href="services.html">Services</a>
+                <a href="buildings.html">BSC Buildings</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="contact.html">Contact</a>
+            </div>
+
+            <div class="footer-contact">
+                <h2>Contact</h2>
+                <p>Phone: (801) 972-1636</p>
+                <p>Fax: (801) 972-1670</p>
+                <p>
+                    Email:
+                    <a href="mailto:sales@boettcherandsons.com">
+                        sales@boettcherandsons.com
+                    </a>
+                </p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="section-wrap">
+                <p>
+                    &copy; <span id="current-year"></span>
+                    Boettcher &amp; Sons. All rights reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

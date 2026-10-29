@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Project Gallery | Boettcher &amp; Sons</title>
+    <meta name="description" content="View fabrication, welding repair, and building projects from Boettcher & Sons.">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="header-inner">
+            <a class="brand" href="index.html" aria-label="Boettcher and Sons home">
+                <img src="assets/boettcher-logo.svg" alt="" class="brand-logo">
+                <span class="brand-name">
+                    Boettcher <span>&amp; Sons</span>
+                    <small>Welding done tight.</small>
+                </span>
+            </a>
+
+            <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false"
+                aria-controls="main-navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <nav class="main-navigation" id="main-navigation">
+                <a href="index.html">Home</a>
+                <a href="services.html">Services</a>
+                <a href="buildings.html">BSC Buildings</a>
+                <a href="gallery.html" aria-current="page">Gallery</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-banner">
+            <div class="section-wrap">
+                <p class="eyebrow">OUR WORK</p>
+                <h1>Project Gallery</h1>
+                <p>
+                    Explore examples of our welding, fabrication, repair,
+                    and building work.
+                </p>
+            </div>
+        </section>
+
+        <section class="gallery-section section-wrap">
+            <div class="gallery-intro">
+                <h2>Built with Experience</h2>
+                <p>
+                    Browse our porjects by category to see the range of work
+                    Boettcher &amp; Sons can provide.
+                </p>
+            </div>
+
+
+
+            <div class="gallery-tabs" role="group" aria-label="Filter gallery projects">
+                <button class="gallery-tab active" type="button" data-filter="all" aria-pressed="true">
+                    All Projects
+                </button>
+
+                <button class="gallery-tab" type="button" data-filter="buildings" aria-pressed="false">
+                    Buildings
+                </button>
+
+                <button class="gallery-tab" type="button" data-filter="custom" aria-pressed="false">
+                    Custom Work
+                </button>
+
+                <button class="gallery-tab" type="button" data-filter="fabrication" aria-pressed="false">
+                    Fabrication
+                </button>
+
+                <button class="gallery-tab" type="button" data-filter="handrails" aria-pressed="false">
+                    Handrails
+                </button>
+
+                <button class="gallery-tab" type="button" data-filter="repair" aria-pressed="false">
+                    Repair
+                </button>
+            </div>
+
+            <div class="gallery-grid" id="gallery-grid"></div>
+
+
+
+
+            <p class="gallery-note">
+                Project photos and descriptions will be updated with
+                approved Boettcher &amp; Sons project images.
+            </p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+
+        <div class="section-wrap footer-inner">
+
+            <div class="footer-about">
+
+                <a class="footer-brand" href="index.html" aria-label="Boettcher and Sons home">
+                    <span class="footer-brand-name">
+                        Boettcher &amp; Sons
+                    </span>
+
+                </a>
+
+                <p>Family owned and operated since 1946.</p>
+                <p>Welding done right.</p>
+
+            </div>
+
+            <div class="footer-links">
+                <h2>Explore</h2>
+
+                <a href="index.html">Home</a>
+                <a href="services.html">Services</a>
+                <a href="buildings.html">BSC Buildings</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="contact.html">Contact</a>
+            </div>
+
+            <div class="footer-contact">
+                <h2>Contact</h2>
+
+                <p>Phone: (801) 972-1636</p>
+                <p>Fax: (801) 972-1670</p>
+
+                <p>
+                    Email:
+                    <a href="mailto:sales@boettcherandsons.com">
+                        sales@boettcherandsons.com
+                    </a>
+                </p>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <div class="section-wrap">
+                <p>
+                    &copy; <span id="current-year"></span>
+                    Boettcher &amp; Sons. All rights reserved.
+                </p>
+            </div>
+        </div>
+
+    </footer>
+</body>
+
+</html>
